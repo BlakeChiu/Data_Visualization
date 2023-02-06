@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="x-icon" href="icon1.ico">
+        <meta charset="UTF-8"/>
+        <title>資料視覺化期末</title>
+    </head>
+
+    <style>
+        body{
+            background-image: url('https://i.imgur.com/BhLOwMb.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: DFKai-sb;
+            font-size:18px;
+        }
+        .center{
+            text-align: center;
+        }
+        .display-flex {
+            display: flex;
+            margin: 50px;
+        }
+        .div-size {
+            width: 50%;
+            margin: auto;
+            display: inline-block;
+            max-width: 270px;
+        }
+        .table,th,td{
+            border:1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            background-color: blanchedalmond;
+            width: 100%;
+        }
+        th{
+            height: 70px;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+    
+    <div class="center">
+        <h1>111選舉-南投政治版圖調查</h1>
+    </div>
+
+    <body>
+        <h1>組員名單:</h1>
+        <table class="table,th,td">
+            <tr>
+                <th>組員</th>
+                <th>姓名</th>
+                <th>學號</th>
+            </tr>
+            <tr>
+                <td>組員一</td>
+                <td>邱柄城</td>
+                <td>111213513</td>
+            </tr>
+            <tr>
+                <td>組員二</td>
+                <td>李宗祐</td>
+                <td>111213517</td>
+            </tr>
+            <tr>
+                <td>組員三</td>
+                <td>張玠合</td>
+                <td>109108004</td>
+            </tr>
+            <tr>
+                <td>組員四</td>
+                <td>陳志添</td>
+                <td>109251023</td>
+            </tr>
+            <tr>
+                <td>組員五</td>
+                <td>陳偉祥</td>
+                <td>109251008</td>
+            </tr>
+            <tr>
+                <td>組員六</td>
+                <td>張修齊</td>
+                <td>109251001</td>
+            </tr>
+        </table><br><hr>
+    </body>
+        
+    <div>
+        <body>
+            <h1>資料集來源:</h1>
+            <h3><a href="https://reurl.cc/OE8QDy">這個連結是</a>111年村里長選舉</h3>><br>
+            <h3><a href="https://reurl.cc/QWkNo5">這個連結是</a>111年鄉鎮市長選舉</h3><br>
+            <h3><a href="https://reurl.cc/6L3X35">這個連結是</a>111年縣市長選舉</h3><hr>
+        </body>
+
+        <div>
+            <h1>快速導覽:</h1>
+            <div>
+                <div class="div-size"><h3><a href="#term01">里長-參選性別比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term02">里長-當選性別比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term03">里長-推薦政黨比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term04">里長-選舉人數分佈</a></h3></div>
+                <div class="div-size"><h3><a href="#term05">里長-各地區當選得票率</a></h3></div>
+                <div class="div-size"><h3><a href="#term06">鄉鎮市長-參選性別比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term07">鄉鎮市長-當選性別比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term08">鄉鎮市長-推薦政黨比率</a></h3></div>
+                <div class="div-size"><h3><a href="#term09">鄉鎮市長-選舉人數分佈</a></h3></div>
+                <div class="div-size"><h3><a href="#term10">鄉鎮市長-各地區當選得票率</a></h3></div>
+                <div class="div-size"><h3><a href="#term11">鄉鎮市長-投票分佈狀況</a></h3></div>
+                <div class="div-size"><h3><a href="#term12">縣市長-最大得票率</a></h3></div>
+                <div class="div-size"><h3><a href="#term13">縣市長-全台當選分佈</a></h3></div>
+            </div>
+        </div><hr>
+        
+        <body>
+            <h1>探討議題:</h1>
+            <h2><p><div style="background-color:blanchedalmond">1、為什麼村里長無黨籍比率高<br><br>2、女性參選比率低可能的原因<br><br>3、在不同層級的地方選舉之下，上述的兩個方面有甚麼改變? </div></p><h2><hr>
+        </body>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term01">里長-參選性別比率</a></h1>
+            <p><div style="background-color:blanchedalmond">從這張圖可以看到在此次南投的村里長選舉中男性佔了大部分的比率，並且男女候選人比重差了4倍之多。</div></p>
+            <br/>
+        </body>   
+        <div class='tableauPlaceholder' id='viz1672586219251' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='里長1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;1' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672586219251');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term02">里長-當選性別比率</a></h1>
+            <p><div style="background-color:blanchedalmond">雖然候選人性別比相差之大，可是可以從此圖看出女性當選的比率相較候選的部分多了一些。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672586534270' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='里長2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;2&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;2&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672586534270');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='480px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='480px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term03">里長-推薦政黨比率</a></h1>
+            <p><div style="background-color:blanchedalmond">雖然這次選舉都是以國民黨得票佔多數且民進黨佔少數，但是由這張圖可以看到其實南投算是非常的特立獨行，絕大部分都是沒有政黨包袱的人當選。
+            </div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672587378399' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='里長3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;3&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;3&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672587378399');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term04">里長-選舉人數分佈</a></h1>
+            <p><div style="background-color:blanchedalmond">這個圓點圖非常的平均，大部分的里參選人都用一隻手就可以數出來，偏向於寡佔市場，競爭較不激烈。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672587809273' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='里長4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;4&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;4' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;4&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672587809273');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term05">里長-各地區當選得票率</a></h1>
+            <p><div style="background-color:blanchedalmond">this heatmap shows that over half villige 屬於一人獨大(100%)，所有票都集中在該名候選人，也就是沒有其他人競爭；而其他里也都是得票過半，表示有競爭力但不具威脅。 </div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672588449789' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='里長5 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;5&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;5' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;5&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object> 
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672588449789');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term06">鄉鎮市長-參選性別比率</a></h1>
+            <p><div style="background-color:blanchedalmond">每4人就有3人為男性，1人為女性，可見女性在這次的選舉當中也佔有一定的席次，並非完全滅絕，但仍佔少數，有可看性。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672591196227' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;1_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;1_1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;1_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object> 
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672591196227');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term07">鄉鎮市長-當選性別比率</a></h1>
+            <p><div style="background-color:blanchedalmond">這就有意思了，剛剛那張圖有1/4女性參選，但是當選的女性卻只有1/12，表示雖然女權勢力崛起，但是仍須臣服在男性的淫威之下，顯示出民風的保守。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672592055964' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;2_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;2_1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;2_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672592055964');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term08">鄉鎮市長-推薦政黨比率</a></h1>
+            <p><div style="background-color:blanchedalmond">相較於里長，鄉鎮市長就有比較多的政黨比率，國民黨5倍，民進黨更是有93倍之差，可見對於官位的職等越高，會越容易有政黨的候選人參與其中，表示這些政黨認為這些官位是有一定的重要性。不過無黨籍的人還是保有一定比率，屬於勢均力敵的一個情況。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672593037094' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;3_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;3_1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;3_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672593037094');                   
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term09">鄉鎮市長-選舉人數分佈</a></h1>
+            <p><div style="background-color:blanchedalmond">這張圖跟里長一樣，參選的人都不多，除了水里跟仁愛，其他地區的候選人幾乎只要對付1個人頂多2個人就好，壓力相對較小，不必花費太多成本即可拿下。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672593341847' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;4_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;4_1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;4_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /><param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672593341847');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term10">鄉鎮市長-各地區當選得票率</a></h1>
+            <p><div style="background-color:blanchedalmond">除信義鄉因只有1人選舉所以得票率100%外，其餘選區都是過半拿下，可說幾乎也是某候選人獨大，值得一看的是水里鄉有5人參選，得票率還有36%，競爭相對激烈。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672593757226' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長5 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;5_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;5_1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;5_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672593757226');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term11">鄉鎮市長-投票分佈狀況</a></h1>
+            <p><div style="background-color:blanchedalmond">果不其然的，越鄉下的地方投票的人越少，但不排除跟人口基數有關。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672594053464' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='鄉鎮市長6 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;6_1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='2_16719738998060&#47;6_1' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16719738998060&#47;6_1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672594053464');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term12">縣市長-最大得票率</a></h1>
+            <p><div style="background-color:blanchedalmond">從此圖可以看出南投在全台灣屬於國民黨與民進黨勢均力敵的地區，在2024總統大選應屬於搖擺區，沒有第3勢力介入的餘地，民進黨下次要勝選必須花費更多的力氣在南投才有可能拿下。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672594646081' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='選舉圖2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16712915617970&#47;2&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='_16712915617970&#47;2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16712915617970&#47;2&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672594646081');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script> <hr/>
+
+        <body>
+            <meta charset="UTF-8"/>
+            <h1><a id="term13">縣市長-全台當選分佈</a></h1>
+            <p><div style="background-color:blanchedalmond">本圖凸顯了南投縣市長選舉也是這次大選藍營的一部分，並且再從全台灣來看更顯得他與其他藍營部分連成一塊，與整個台灣選舉分佈成鮮明對比。</div></p>
+            <br/>
+        </body>
+        <div class='tableauPlaceholder' id='viz1672594879588' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='選舉圖1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16712915617970&#47;1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='_16712915617970&#47;1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_16712915617970&#47;1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='zh-TW' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1672594879588');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </div>
+</html>
